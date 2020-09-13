@@ -5,6 +5,8 @@ function App() {
   return (
     <div className="app">
       <span>Let's build the amazon clone!🚀 </span>
+      {/* Header */}
+      {/* Home */}
     </div>
   );
 }
