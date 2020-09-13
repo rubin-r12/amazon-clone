@@ -11,6 +11,9 @@
   background-color: white;
   z-index: 1;
 }
+.product__rating {
+  display: flex;
+}
 .product > img {
   max-height: 200px;
   width: 100%;
@@ -28,6 +31,7 @@
   margin-top: 5px;
 }
 .product__info {
+  text-align: left;
   height: 100px;
   margin-bottom: 15px;
 }
