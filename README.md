@@ -1,7 +1,7 @@
 # Amazon-clone
 
 ![amazon_image](https://i.ibb.co/BGj19sV/amazon.png)
-
+     
 ## Available Scripts
 
 In the project directory, you can run:
