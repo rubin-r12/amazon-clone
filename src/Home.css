@@ -16,6 +16,7 @@
   margin-right: 5px;
 }
 .home__image {
+  padding-top: 60px;
   width: 100%;
   z-index: -1;
   margin-bottom: -150px;
