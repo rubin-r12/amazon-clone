@@ -21,9 +21,9 @@ function Home() {
           />
           <Product
             id="234"
-            title="Kenwood kMix Stand Mixer for Baking, Styling Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre  Glass Bowl"
-            price={239.0}
-            image="https://www.costco.co.uk/medias/sys_master/images/hae/h6f/31246442135582.jpg"
+            title="PlayStation 4 Pro 1TB Console"
+            price={399.0}
+            image="https://media.playstation.com/is/image/SCEA/playstation-4-pro-vertical-product-shot-01-us-21sep18?$native_t$"
             rating={4}
           />
         </div>
@@ -34,30 +34,30 @@ function Home() {
             title="Fitbit SmartWatch Charge 3 Band Activity Tracker, Grpahite/Black"
             price={199.99}
             rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+            image="https://cdn.shoplightspeed.com/shops/607644/files/17135537/image.jpg"
           />
           <Product
             id="456"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
+            title="Canon Eos 5d Mark Iv Dslr With 24-105mm Ii Lens"
+            price={3599.99}
             rating={5}
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdgfBB1zBMg1AMP72Zb-Qyk1zXHhpHYLEKgw&usqp=CAU"
+            image="https://www.pngkey.com/png/full/88-889285_dslr-camera-transparent-background-canon-eos-5d-mark.png"
           />
           <Product
             id="567"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generator)"
             price={598.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+            image="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-cell-spacegray-202003_FMT_WHH?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1583553672276"
           />
         </div>
         <div className="home__row">
           <Product
             id="678"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            title="Logitech G910 Orion Spark RGB Mechanical Gaming Keyboard – 9 Programmable Buttons, Dedicated Media Controls"
+            price={104.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://pngriver.com/wp-content/uploads/2018/03/Download-Logitech-Gaming-Keyboard-PNG-282.png"
           />
         </div>
       </div>
