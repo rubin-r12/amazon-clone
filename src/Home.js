@@ -15,14 +15,14 @@ function Home() {
           <Product
             id="123"
             title="New Apple Macbook Pro(16-Inch, 16GB RAM, 1TB Storage, 2.3GHz Intel Core i9)- Space Gray"
-            price={2928}
+            price={2928.99}
             image="https://m.media-amazon.com/images/G/01/appcore/laptop/MacBook-Pro-16inch_240x160._CB448721043_.png"
             rating={5}
           />
           <Product
             id="234"
-            title="PlayStation 4 Pro 1TB Console"
-            price={399.0}
+            title="PlayStation 4 Pro 1TB Console CUH-2000 series GDDR5 8GB 1.84 TFLOPS, AMD Radeon™(PS4 Pro, 2.1kg)"
+            price={499.99}
             image="https://media.playstation.com/is/image/SCEA/playstation-4-pro-vertical-product-shot-01-us-21sep18?$native_t$"
             rating={4}
           />
