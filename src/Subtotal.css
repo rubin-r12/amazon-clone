@@ -8,6 +8,18 @@
   background-color: #f3f3f3;
   border: 1px solid #dddddd;
   border-radius: 3px;
+
+  /* background-color: white; */
+  z-index: 1;
+  margin: 10px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  box-shadow: 3px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+}
+.subtotal:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 .subtotal__gift {
   display: flex;
@@ -25,4 +37,5 @@
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
+  cursor: pointer;
 }
