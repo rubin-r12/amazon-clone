@@ -1,3 +1,6 @@
+:root {
+  filter: invert(100%) hue-rotate(180deg);
+}
 .home {
   display: flex;
   justify-content: center;
@@ -17,4 +20,5 @@
   z-index: -1;
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  filter: invert(100%) hue-rotate(180deg);
 }

@@ -5,6 +5,7 @@
   background-color: #131921;
   position: sticky;
   z-index: 100;
+  filter: invert(100%) hue-rotate(180deg);
 }
 .header__logo {
   width: 100px;

@@ -19,6 +19,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  filter: invert(100%) hue-rotate(180deg);
 }
 .product > button {
   background: #f0c14b;
