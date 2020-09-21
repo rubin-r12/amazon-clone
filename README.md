@@ -1,6 +1,6 @@
 # Amazon-clone
 
-![amazon_image](https://i.ibb.co/BGj19sV/amazon.png)
+![amazon_image](https://i.ibb.co/dgLsPXW/amazon-darkmode.png)
      
 ## Available Scripts
 
