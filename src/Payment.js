@@ -20,8 +20,10 @@ function Payment() {
   // const [processing, setProcessing] = useState("");
   const [disabled, setDisabled] = useState(true);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     // do all the fancy stripe stuff...
+    event.preventDefault();
+    setProcessing(true);
   };
 
   const handleChange = (event) => {
