@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import CheckoutProduct from "./CheckoutProduct";
 import "./Payment.css";
 import { useStateValue } from "./StateProvider";
+import CurrencyFormat from "react-currency-format";
+import { getBasketTotal } from "./reducer";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
@@ -11,11 +13,14 @@ function Payment() {
   const stripe = useStripe();
   const elements = useElements();
 
+  const [succeeded, setSucceeded] = useState(false);
+  const [Processing, setProcessing] = useState("");
+
   const [error, setError] = useState(null);
   // const [processing, setProcessing] = useState("");
   const [disabled, setDisabled] = useState(true);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (event) => {
     // do all the fancy stripe stuff...
   };
 
@@ -75,8 +80,21 @@ function Payment() {
               <CardElement onChange={handleChange} />
 
               <div className="payment__priceContainer">
-                {/* continue from here */}
+                <CurrencyFormat
+                  renderText={(value) => <h3>Order Total: {value}</h3>}
+                  decimalScale={2}
+                  value={getBasketTotal(basket)}
+                  displayType={"text"}
+                  thousandSeparator={true}
+                  prefix={"$"}
+                />
+                <button disabled={proceeding || disabled || succeeded}>
+                  <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                </button>
               </div>
+
+              {/* Errors */}
+              {error && <div>{error}</div>}
             </form>
           </div>
         </div>
