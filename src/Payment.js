@@ -1,5 +1,5 @@
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CheckoutProduct from "./CheckoutProduct";
 import "./Payment.css";
@@ -10,6 +10,21 @@ function Payment() {
 
   const stripe = useStripe();
   const elements = useElements();
+
+  const [error, setError] = useState(null);
+  // const [processing, setProcessing] = useState("");
+  const [disabled, setDisabled] = useState(true);
+
+  const handleSubmit = (e) => {
+    // do all the fancy stripe stuff...
+  };
+
+  const handleChange = (event) => {
+    // Listen for changes in the CardElement
+    //and display any errors as the customer types their card details
+    setDisabled(event.empty);
+    setError(event.error ? event.error.message : "");
+  };
 
   return (
     <div className="payment">
@@ -53,7 +68,17 @@ function Payment() {
           <div className="payment__title">
             <h3>Payment Method</h3>
           </div>
-          <div className="payment__details">{/* Stripe magic goes here */}</div>
+          <div className="payment__details">
+            {/* Stripe magic goes here */}
+
+            <form onSubmit={handleSubmit}>
+              <CardElement onChange={handleChange} />
+
+              <div className="payment__priceContainer">
+                {/* continue from here */}
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
