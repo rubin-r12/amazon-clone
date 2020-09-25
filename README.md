@@ -1,6 +1,8 @@
 # Amazon-clone
 
 ![amazon_image](https://i.ibb.co/dgLsPXW/amazon-darkmode.png)
+
+Click [here](https://clone-b035e.web.app/) to visit the website.
      
 ## Available Scripts
 
