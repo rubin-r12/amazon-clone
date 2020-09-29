@@ -1,4 +1,4 @@
-# Amazon-clone
+# Dark-mode Amazon-clone
 
 ![amazon_image](https://i.ibb.co/dgLsPXW/amazon-darkmode.png)
 
